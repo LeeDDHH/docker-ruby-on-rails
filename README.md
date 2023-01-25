@@ -16,6 +16,24 @@
   |ruby イメージ用| `docker/ruby_image/docker-compose.yml` | 開発で使うイメージ（ `ruby-image` ）をビルドし、開発用の Dockerfile の基盤とする |
   |開発用| `docker/api/docker-compose.yml` | サブモジュールのプロジェクトを docker コンテナ内の `/usr/app` に配置する |
 
+## 動作環境
+
+### ローカル環境
+
+|                |         |
+| :------------: | :-----: |
+| Docker Desktop | 4.16.1  |
+|      yarn      | 1.22.19 |
+
+### Ruby on Rails 環境
+
+|        |         |
+| :----: | :-----: |
+|  Ruby  |  3.0.2  |
+| bundle | 2.2.22  |
+|  gem   |  3.4.5  |
+| rails  | 7.0.4.2 |
+
 ## コマンド
 
 - プロジェクトを初めて使う場合
